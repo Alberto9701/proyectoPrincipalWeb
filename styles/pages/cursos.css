@@ -1,0 +1,141 @@
+* {
+    transition: all 200ms ease-in-out;
+}
+/*
+.color1 { #10bbde };
+.color2 { #7dd9ea };
+.color3 { #08183c };
+.color4 { #8e6c73 };
+.color5 { #d2a6aa };
+*/
+:root{
+    --colorPrincipalOscuro: #5f94ac;
+    --colorPrincipal: #add8e6be;
+    --colorPrincipalClaro: #96c0d4;
+
+    --colorResaltado1: #ffcc66;
+    --colorResaltado2: #ff9966;
+    --colorResaltado3: #cc99ff;
+
+
+    --colorNeutroClaro: #f2f2f2;
+    --colorNeutro: #999999;
+    --colorNeutroOscuro: #333333;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.cabezera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--colorPrincipal);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 10rem;
+}
+
+body{
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+   
+    background-color: white;
+    margin: 0px;
+
+    background-color: rgba(255, 242, 222, 0.171);
+
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 4rem;
+  border: 5px solid rgb(23, 50, 51);;
+  border-radius: 45%;
+  color: rgb(23, 50, 51);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.boton:hover{
+    background-color: var(--colorResaltado1);
+    color: var(--colorNeutroOscuro);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos__titulo {
+    font-size: 4rem;
+    margin: 2rem 0 0 0;
+}
+
+.cursos__lista{
+    list-style: none;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.cursos__card{
+    width: 25rem;
+    margin: 1rem;
+    background: var(--colorPrincipalClaro);
+    padding: 4rem 1rem 1rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.cursos__card:hover{
+    background: var(--colorPrincipal); 
+    transform: translateY(-2px);
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.cursos__foto{
+    width: 70%;
+    border-radius: 4px;
+    border: 3px solid var(--colorPrincipalOscuro);
+}
+
+.imagen-bandera {
+    width: 100%;
+    object-fit: cover;
+}
+
+.imagen-bandera img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.cursos__nombre {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.cursos__profesor {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
