@@ -1,0 +1,55 @@
+
+.contenedor__registro {
+    background-color: whitesmoke;
+    padding: 2rem;
+    width: fit-content;
+    margin: 3rem auto;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 3rem;
+}
+
+.titulo__registro {
+    font-size: 4rem;
+    margin: 5rem 0 7rem;
+    text-align: center;
+}
+
+.campo-formulario {
+    margin: 2rem;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 30rem 40rem;
+    justify-content: center;
+}
+
+.formulario__label {
+    display: block;
+    margin-right: 2rem;
+    text-align: end;
+}
+
+
+.formulario__text {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+
+.formulario__submit {
+    padding: 1.5rem;
+    margin: auto;
+    width: 20rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color:aliceblue;
+    background-color: rgb(5, 83, 119);
+    border-radius: 1rem;
+}
